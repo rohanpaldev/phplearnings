@@ -42,32 +42,3 @@ if (isset($_POST['submit'])){
     </div>
 </body>
 </html>
-<?php echo '"Hello world "'?>
-<?php 
-
-$a =  10;
-$e = strval($a);
-$b = true;
-
-$c = $e+$b;
-echo $c."<br>";
-print_r($c);
-echo gettype($c);
-
-
-
-$tr = array(
-    "rohan"=>"is learning php",
-    "karan"=>"is a model",
-    "raj"=>"is a driver",
-    "tarun"=> "carpenter",
-    "vaibhav"=>"is a pilot",
-
-);
-
-print_r($tr);
-
-
-
-
-?>
